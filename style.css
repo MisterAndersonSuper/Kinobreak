@@ -1,0 +1,621 @@
+header{
+    background-color: #0b2c81;
+    background-image: url('images/41453-atmosfera-linejnyj_krejser-kosmicheskij_chelnok-zvezdnye_vojny_vojny_klonov-linkor-2560x1440.jpg');
+    padding-bottom: 0%;
+    background-size:cover;
+    width: 99.3vw;
+    background-repeat:no repeat;
+    z-index: 0;
+    margin-left: -11vw;
+    padding-top: 90%;
+}
+body{
+    width: 10vw;
+    max-height: 50vh;
+    z-index: 0;
+    display: block;
+    padding-left: 10vw;
+    padding-right: 0vw;
+    background-color: gold;
+}
+
+footer{
+    background-color: darkgrey;
+    color: #333;
+    text-decoration: none;
+    width: 99.3vw;
+    margin-left: -10.6vw;
+    margin-top: 0%;
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.logoimg{
+    width: 2.5vw;
+    height: 2.5vw;
+    
+}
+.menu{
+    text-decoration: none;
+}
+
+.text1{
+    margin-bottom: 0%;
+    
+    width: 170px;
+    height: 210px;
+    position: absolute;
+    z-index: 10;
+    color: #fff;
+    text-align:center;
+    background: linear-gradient(to top, black 10%, transparent 100%);
+    opacity: 1.8;
+    vertical-align: bottom;
+    margin: 0.5vw;
+}
+.text{
+display: inline;
+padding: 0;
+margin: 0;
+}
+
+.speciaal{
+        padding-top: 90.5%;
+}
+.cities{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0%;
+    gap: 20px;
+}
+
+.city{
+    height: 210px;
+    width: 190px;
+    
+    align-content: flex;
+    display: flex;
+    
+    margin: 0.5vw;
+}
+.sss{
+    font-size: smaller;
+    padding: 0;
+    margin: 1px;
+    text-decoration: none;
+}
+.okno{
+    max-width: 10vw;
+    background-color: rgb(222, 216, 214);
+    margin: 0%;
+    padding: 0%;
+    margin-top: 1.5vw;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    z-index: 999;
+}
+
+.spisok{
+    font-size: 10px;
+    align-content: flex;
+    margin: 0%;
+    display: none;
+}
+
+.button_for_spisok{
+    background-color: red;
+    z-index: 120;
+    height: 30px;
+    margin-top: 2%;
+}
+.big_menu{
+    display: flex;
+}
+
+article{
+    display: flex;
+}
+.subscribe{
+    
+    color: rgb(195, 199, 203);
+    display: flex;
+    
+}
+span{
+    font-size: 40px;
+}
+.subscribeP{
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 0%;
+}
+.subscribe1{
+    display: flex;
+    color: rgb(195, 199, 203);
+    padding-bottom: 60px;
+}
+input{
+
+    margin-right: 10px;
+}
+.img{
+    height: 5vw;
+    
+    margin-bottom: 0%;
+    object-fit: cover;
+    background-size:cover; 
+}
+.img1{
+    width: 170px;
+    height: 210px;
+    margin: 0.5vw;
+}
+
+
+main{
+    z-index: 2;
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: brown;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.zakrcart{
+    display:flex;
+}
+
+
+.logo{
+    max-width: 300px;
+    max-height: 62px;
+    transition: transform 1s;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 60%;
+    height: auto;
+    object-fit: contain;
+    animation: wobble 2s 1;
+   }
+/* скрываем чекбокс */
+#menu__toggle {
+    opacity: 0;
+  }
+  
+  /* элементы меню */
+  .menu__item {
+    display: block;
+    
+    color: #333;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+  .menu__item1 {
+    display: block;
+    padding: 0px 0px;
+    color: #333;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  .menu__item1:hover {
+    background-color: #CFD8DC;
+  }
+
+
+
+/* планшеты горизонтально */
+@media (min-width: 992px) and (max-width: 1199px) {
+    input{
+        max-width: 100px;
+    }
+    main{
+        min-height:65vh;
+    }
+    .card{
+        width:30%;
+    }
+}
+
+/* планшеты вертикально */
+@media (max-width: 800px) {
+    /* .big_menu{
+        display: none;
+    } */
+    .menu__item1{
+        margin-left: 0.5vw;
+    }
+    .subscribe1{
+        padding-right: 0%;
+    }
+    .headerr{
+        padding-left: 0%;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    input{
+        max-width: 100px;
+    }
+    main{
+        min-height:65vh;
+    }
+    .card{
+        width:30%;
+    }
+    .adv{ 
+        height: 20%;
+        width: 20%;
+        position: absolute;
+
+    }
+}
+
+/* телефоны горизонтально */
+@media (max-width: 767px) {
+    span{
+        font-size: 20px;
+    }
+    input{
+        max-width: 100px;
+    }
+    header,article{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 50%;
+        padding-bottom: 10px;
+    }
+
+}
+
+/* телефоны вертикально */
+@media (max-width: 480px) {
+    header{
+        flex-direction: column;
+    }
+    nav{
+        margin-right:0;
+    }
+    li{
+        margin-right: 5px;
+    }
+    .card{
+        width: 70%;
+    }
+    
+    
+}
+
+  
+.carousel img {
+    width: 312px;
+    height: 400px;
+    /* делаем этот элемент блочным, чтобы убрать лишнее пространство вокруг картинок */
+    display: block;
+}
+  
+  .arrow {
+    position: absolute;
+    top: 47%;     /* располагаем стрелки примерно посередине карусели */
+    padding: 2px;
+    font-size: 18px;
+    color: #000;
+    display: block;
+  }
+  
+  .arrow:hover {
+    background-color: orange;
+  }
+  
+  .prev, .prev1, .prev2, .prev3 {
+    left: 7px;
+  }
+  
+  
+  .next,.next1, .next2, .next3 {
+    right: 7px;
+  }
+  
+  
+  .gallery {
+    width: 300px;
+    overflow: hidden;
+  }
+  
+  .images, .images1, .images2, .images3 {
+    height: 400px;
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: margin-left 200ms;
+    /* удаляем пустое пространство между элементами li, у которых установлен inline-block */
+    font-size: 0;
+  }
+  
+  .gallery li {
+    display: inline-block;
+  }
+
+/* светлая тема */
+.lightTheme {
+    background-color: rgb(200, 195, 195);
+    color: #000;
+}
+.lightTheme .menu__box{
+    background-color: rgb(195, 199, 203);
+    
+} 
+.lightTheme header{
+    background-color: #fac981;
+    color: white;
+}
+.lightTheme .subscribe1{
+    color: rgb(195, 199, 203);
+}
+.lightTheme .main_menu{
+    background-color: #e2dfdf;
+}
+
+.lightTheme a{
+    color: white;
+}
+
+.lightTheme input{
+    background-color: #fff;
+}
+
+.lightTheme h1{
+    color: #f1efeb;
+}
+
+.lightTheme .line{
+    background-color: #fac981;
+}
+
+.lightTheme footer{
+    background-color: #2c2c2c;
+    color: white;
+}
+
+
+/* темная тема */
+
+
+.darkTheme {
+ background-color: #494545;
+ color: #fff;
+}
+.darkTheme .menu__box{
+    background-color: rgb(81, 83, 85);
+    color: white;
+} 
+.darkTheme .subscribe1{
+    color: rgb(81, 83, 85);
+    color: white;
+}
+
+.darkTheme header{
+    background-color: #1f1f1f;
+ color: white;
+}
+.darkTheme .main_menu{
+    background-color: #616161;
+}
+
+.darkTheme a{
+    color: #e7e4e0;
+}
+
+.darkTheme .logo{
+     color: #fac981;
+}
+
+.darkTheme input{
+    background-color: #e7e4e0;
+ color: #121212;
+}
+
+.darkTheme h1{
+    color: #fff;
+}
+
+.darkTheme .line{
+    background-color: #fac981;
+}
+
+.darkTheme footer{
+    background-color: #383838;
+ color: white;
+}
+.contunerr{
+    margin-left: 30px;
+}
+.pustiska{
+    display: inline;
+    margin-left: 15px;
+}
+.video{
+    width:80%; 
+    height: 400px;;
+    margin: 75px 75px 75px 75px;
+}
+
+.string{
+    z-index: -5;
+    color: #616161;
+}
+.vagno{
+    font-size: larger;
+}
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.moSearch{
+    margin-left: 6vw;
+    margin-top: 2%;
+    height: 30px;
+}
+.headerr{
+    background-color: darkgrey;
+    margin-top: 10%;
+    display: flex;
+    width: 99.3vw;
+    height: 13vh;
+    justify-content: space-between;
+    width: 99vw;
+}
+.pfooter{
+    margin: 0%;
+}
+.minijpg{
+    width: 35%;
+    height: 35%;
+}
+.coment{
+    margin-bottom: 0px;
+}
+table {
+    margin: 15px auto; /* Сверху и снизу таблицы отступы 15 пикселей, auto - центрирует таблицу */
+    font-size: 16px;
+    font-family: sans-serif; /* Подключаем красивый шрифт */
+    width: 90%; /* Ширина таблицы относительно всей страницы */
+    border: double 5px #2c3e50; /* Создаем двойную границу с толщиной 5 пикселей */
+}
+.nick{
+    border-color: #000;
+    margin-bottom: 0%;
+}
+.namee{
+    display: flex;
+    margin-bottom: 0%;
+}
+.comentariy{
+    display: flex;
+    margin-bottom: 0%;
+}
+.reggig{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+/* скрываем чекбокс */
+#menu__toggle {
+    opacity: 0;
+  }
+  /* стилизуем кнопку */
+  .menu__btn {
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center;  /* центрируем содержимое кнопки */
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    z-index: 112;
+    margin-right: 50px;
+  }
+.article_for_film{
+    display: flex;
+    margin: left 550px; 
+    margin: right 550px; 
+    margin-bottom: 50px;
+}
+  /* добавляем "гамбургер" */
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  /* контейнер меню */
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 30%;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #ECEFF1;
+    z-index: 100;
+  }
+  /* элементы меню */
+  .menu__item {
+    display: block;
+    padding: 1vw ;
+    color: #333;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+  .menu__item1 {
+    display: block;
+    padding: 0px 24px;
+    color: #333;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  .menu__item1:hover {
+    background-color: #CFD8DC;
+  }
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
